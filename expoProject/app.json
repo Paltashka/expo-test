@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "expoProject",
+    "slug": "expoProject",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "CFBundleURLTypes": [
+          {
+            "CFBundleURLSchemes": [
+              "com.googleusercontent.apps.852246388697-c8b0eh43iiqbqt4hu4d89s297snm19jm"
+            ]
+          }
+        ]
+      },
+      "bundleIdentifier": "com.andriyyurchuk.expoProject"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.andriyyurchuk.expoproject"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": [
+      "expoProject",
+      "fb592675326387349"
+    ]
+  }
+}
